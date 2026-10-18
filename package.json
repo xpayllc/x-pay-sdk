@@ -1,0 +1,31 @@
+{
+  "name": "@xpay-llc/sdk",
+  "version": "1.0.1",
+  "description": "Server-side JavaScript client for the X Pay merchant payment API",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test sdk.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpayllc/x-pay-sdk.git"
+  },
+  "homepage": "https://github.com/xpayllc/x-pay-sdk#readme",
+  "license": "MIT"
+}
